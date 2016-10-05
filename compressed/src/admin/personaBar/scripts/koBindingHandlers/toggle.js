@@ -1,0 +1,1 @@
+define(["jquery","knockout"],function($,ko){"use strict";var toggle=function(element,valueAccessor){var options=ko.utils.unwrapObservable(valueAccessor()),visible=ko.unwrap(options.value),duration=options.duration,complete=options.complete;visible?$(element).show(duration,complete):$(element).hide(duration,complete)};ko.bindingHandlers.toggle={init:toggle,update:toggle}});

@@ -1,0 +1,1 @@
+define(["jquery","knockout"],function($,ko){"use strict";var init=function(element,valueAccessor){var options=valueAccessor();$(element).tabs(options)};ko.bindingHandlers.tabs={init:init}});

@@ -1,0 +1,1 @@
+"use strict";define(["jquery","../scripts/config"],function($,cf){return"True"===window.top.dnn.getVar("evoq_DisableAnalytics","-1")&&$(".btn-analytics").hide(),{init:function(util){}}});

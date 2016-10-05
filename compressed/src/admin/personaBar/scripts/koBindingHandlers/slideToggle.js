@@ -1,0 +1,1 @@
+define(["jquery","knockout"],function($,ko){"use strict";var slideToogle=function(element,valueAccessor){var value=valueAccessor();$(element).slideToggle(ko.unwrap(value))};ko.bindingHandlers.slideToggle={init:slideToogle,update:slideToogle}});

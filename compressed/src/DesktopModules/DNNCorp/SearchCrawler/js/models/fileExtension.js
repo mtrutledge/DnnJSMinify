@@ -1,0 +1,1 @@
+function FileExtension(extension,fileType,canIndex){var self=this;self.extension=ko.observable(extension),self.fileType=ko.observable(fileType),self.canIndex=ko.observable(canIndex),self.newExtension=ko.observable(!0),self.isSelected=ko.observable(!1),self.errorHtml=ko.observable(""),self.showError=ko.observable(!1)}
