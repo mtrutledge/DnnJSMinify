@@ -1,0 +1,2 @@
+﻿
+(function($,ko){'use strict';ko.bindingHandlers.tokenInput={init:function(element,valueAccessor,allBindingsAccessor){var onDelete=allBindingsAccessor().onDelete;$(element).tokenInput("",{onDelete:onDelete});},update:function(element,valueAccessor){$(element).tokenInput("clear");var value=ko.unwrap(valueAccessor());for(var i=0;i<value.length;i++){$(element).tokenInput("add",value[i]);}}};})(jQuery||$,ko);

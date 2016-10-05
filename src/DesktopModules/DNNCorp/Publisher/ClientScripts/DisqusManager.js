@@ -1,0 +1,3 @@
+﻿
+window.dnn=dnn||{};window.dnn.modules=dnn.modules||{};window.dnn.modules.publisher=dnn.modules.publisher||{};window.dnn.modules.publisher.DisqusManager=(function(){"use strict";var requestService;var getRequestService,notifyAboutNewComment;getRequestService=function(){if(!requestService){requestService=dnn.modules.publisher.RequestUtils;}
+return requestService;};notifyAboutNewComment=function(contentItemId){getRequestService().request("Publisher","ViewPost","NotifyAboutNewComment","POST",{contentItemId:contentItemId});};return{notifyAboutNewComment:notifyAboutNewComment};}());

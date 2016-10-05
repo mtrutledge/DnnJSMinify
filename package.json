@@ -1,0 +1,14 @@
+{
+  "name": "DnnJsMinify",
+  "version": "1.0.0",
+  "description": "Minify DNN JS files",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Rutledge",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}
